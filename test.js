@@ -1038,8 +1038,11 @@ function pushButton1(clicked_id) {
     let p_title = tit.title;
     let p_url = tit.src;
     let p_id = p_url.replace('http://drive.google.com/uc?export=view&id=',"")
-    console.log(p_title,p_id);
-    let resurl=(`http://localhost:8501/?&userid=aaaa&displayname=bbbb&p_id=${p_id}&p_title=${p_title}`)
+    let name = document.getElementById("user-name");
+    let displayname = name.innerHTML;
+    let user_id = document.getElementById("user_id");
+    let userid = user_id.innerHTML;
+    let resurl=(`http://localhost:8501/?&userid=${userid}&displayname=${displayname}&p_id=${p_id}&p_title=${p_title}`)
     location.href=resurl
     
     liff.sendMessages([{
