@@ -1042,7 +1042,7 @@ function pushButton1(clicked_id) {
     let displayname = name.innerHTML;
     let user_id = document.getElementById("user_id");
     let userid = user_id.innerHTML;
-    let resurl=(`http://localhost:8501/?&userid=${userid}&displayname=${displayname}&p_id=${p_id}&p_title=${p_title}`)
+    let resurl=(`https://share.streamlit.io/nyumallc/rensen/main/Buy_streamlitpy.py?&userid=${userid}&displayname=${displayname}&p_id=${p_id}&p_title=${p_title}`)
     location.href=resurl
     
     liff.sendMessages([{
