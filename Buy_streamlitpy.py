@@ -17,7 +17,7 @@ displayname = 'test'
 
 REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzPDS6SjcPf_Ud5a8FVeun7V2drrkrbV41YX-02KLr7vQKgV9eqZftrSHk1_Uh9sTQ/exec'
 
-dfitem = pd.read_csv('G:\マイドライブ\Pythonらしんばん商品写真\商品リスト.csv')
+dfitem = pd.read_csv('商品リスト.csv')
 # df = df[df['name'].str.contains('keyword')]
 st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
 
