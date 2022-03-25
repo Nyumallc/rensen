@@ -30,14 +30,18 @@ last = item_type.iloc[index_num]["last"]
 
 
 st.image(p_url)
+st.write(p_title)
+st.write(index_num)
+
+
 st.sidebar.title(title.iloc[-1])
 st.sidebar.write(price.iloc[-1])
 st.sidebar.write(state.iloc[-1])
 st.sidebar.write(remarke.iloc[-1])
 st.sidebar.write(last.iloc[-1])
 
-st.sidebar.title('この商品を購入しますか？')
-option = st.sidebar.text_input('備考を入力してください。※例：加泡泡紙')
+st.sidebar.title('要購買此項商品嗎？')
+option = st.sidebar.text_input('備註:(例如：需要加強氣泡紙包裝）')
 buy_but = st.sidebar.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
