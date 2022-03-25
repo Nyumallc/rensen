@@ -5,6 +5,7 @@ import pandas as pd
 params = st.experimental_get_query_params()
 p_id = params['p_id'][0]
 p_title = params['p_title'][0]
+p_title  =p_title.replace('.jpg','')
 userid = params['userid'][0]
 displayname = params['displayname'][0]
 p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
@@ -29,7 +30,7 @@ last = item_type.iloc[index_num]["last"]
 
 
 st.image(p_url)
-st.erite(p_title)
+st.write(p_title)
 st.write(index_num)
 
 
