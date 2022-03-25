@@ -29,6 +29,10 @@ last = item_type.iloc[index_num]["last"]
 
 
 st.image(p_url)
+st.erite(p_title)
+st.write(index_num)
+
+
 st.sidebar.title(title.iloc[-1])
 st.sidebar.write(price.iloc[-1])
 st.sidebar.write(state.iloc[-1])
