@@ -1,5 +1,6 @@
 import streamlit as st
 import requests
+import pandas as pd
 
 params = st.experimental_get_query_params()
 p_id = params['p_id'][0]
@@ -9,13 +10,30 @@ userid = params['userid'][0]
 displayname = params['displayname'][0]
 REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzPDS6SjcPf_Ud5a8FVeun7V2drrkrbV41YX-02KLr7vQKgV9eqZftrSHk1_Uh9sTQ/exec'
 
+dfitem = pd.read_csv('商品リスト.csv')
+# df = df[df['name'].str.contains('keyword')]
+st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
+
+item_type=st.session_state.dblist
+
+index_num = item_type.index[item_type['ID'] == p_title]
+title = item_type.iloc[index_num]["title"]
+price = item_type.iloc[index_num]["price"]
+state = item_type.iloc[index_num]["state"]
+remarke = item_type.iloc[index_num]["remarke"]
+last = item_type.iloc[index_num]["last"]
+
+
 st.image(p_url)
-st.sidebar.title(p_title)
+st.sidebar.title(title)
+st.sidebar.write(price)
+st.sidebar.write(state)
+st.sidebar.write(remarke)
+st.sidebar.write(last)
+
 st.sidebar.title('この商品を購入しますか？')
-option = st.sidebar.text_input('備考を入力してください。※例：未開封')
+option = st.sidebar.text_input('備考を入力してください。※例：加泡泡紙')
 buy_but = st.sidebar.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
     response = requests.get(api_url)
-    print(api_url)
-st.sidebar.button("キャンセル")
