@@ -58,7 +58,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagenumber-=1
     
     page=st.session_state.pagenumber
-    df=pd.read_csv('G:\マイドライブ\pic_url_pd.csv')
+    df=pd.read_csv('pic_url_pd.csv')
     st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src",]])
     st.session_state.pic_name=pd.DataFrame(data=df.loc[:,["name","src"]])
     # ------------ここから写真のURLを作る行程------------
@@ -71,7 +71,7 @@ if st.session_state.pagecategoly == 0:
 
     # ------------ここまで写真のURLを作る行程------------
     # ------------ここからボタンのURLを作る行程------------
-    dfitem = pd.read_csv("G:\マイドライブ\Pythonらしんばん商品写真\商品リスト.csv")
+    dfitem = pd.read_csv("商品リスト.csv")
     # df = df[df['name'].str.contains('keyword')]
     st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
     # st.dataframe(st.session_state.dblist)
