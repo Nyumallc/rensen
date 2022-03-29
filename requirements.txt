@@ -3,3 +3,6 @@ pandas
 numpy
 oauth2client
 gspread
+pyrsistent
+requests
+click<=8.0.4
