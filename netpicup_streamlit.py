@@ -97,7 +97,7 @@ if st.session_state.pagecategoly == 0:
         remarke[ic] = item_type[ic].iloc[index_num[ic]]["remarke"]
         last[ic] = item_type[ic].iloc[index_num[ic]]["last"]
         
-        text[ic]=title[ic].iloc[-1] +'\n'+"JPY:"+ price[ic].iloc[-1]
+        text[ic]=title[ic].iloc[-1] +"   JPY:"+ price[ic].iloc[-1]
     # # -----------ここから1個のラベル作る工程-----------------------
     # serch_word1 = st.session_state.pic_name.iloc[start_num][0]
     # serch_word1 =serch_word1.replace('.jpg','')
@@ -108,10 +108,10 @@ if st.session_state.pagecategoly == 0:
     # text1=name1.iloc[-1] +"  "+ price1.iloc[-1]
     # # -----------ここまで1個のラベル作る工程-----------------------
     for colum_i in range(0,10,2):
-        left_column.image(p_url[colum_i], width=100)
-        right_column.image(p_url[colum_i+1], width=100)
-#         itempage[colum_i]=left_column.button(text[colum_i])
-#         itempage[colum_i+1]=right_column.button(text[colum_i+1])
+        left_column.image(p_url[colum_i], width=200)
+        right_column.image(p_url[colum_i+1], width=200)
+        itempage[colum_i]=left_column.button(text[colum_i])
+        itempage[colum_i+1]=right_column.button(text[colum_i+1])
     if itempage[0]:
         st.session_state.pic_src = p_url[0]
         st.session_state.itemserch_word = serch_word[0]
