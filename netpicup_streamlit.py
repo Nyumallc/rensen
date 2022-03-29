@@ -205,6 +205,7 @@ if st.session_state.pagecategoly == 0:
 
 if st.session_state.pagecategoly == 1:
     st.image(st.session_state.pic_src)
+    p_title=st.session_state.itemserch_word.iloc[-1]
     st.write(st.session_state.itemtitle.iloc[-1])
     st.write(st.session_state.itemprice.iloc[-1])
     st.write(st.session_state.itemstate.iloc[-1])
@@ -212,12 +213,12 @@ if st.session_state.pagecategoly == 1:
     st.write(st.session_state.itemlast.iloc[-1])
     option = st.text_input('備考を入力してください。※例：未開封')
     left_column, right_column = st.columns(2)
-    back_list_page=left_column.button('商品一覧へ戻る')
+    back_list_page=left_column.button('標品一覧へ戻る')
     if back_list_page:
         st.session_state.pagecategoly =0
     buy_but = right_column.button("購入依頼")
     if buy_but:
-        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ st.session_state.pic_src + '&p_title=' + st.session_state.itemserch_word + '&option=' + option
+        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ st.session_state.pic_src + '&p_title=' + p_title + '&option=' + option
         response = requests.get(api_url)
         st.title('已收到您的訂單')
 
