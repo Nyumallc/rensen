@@ -217,7 +217,7 @@ if st.session_state.pagecategoly == 1:
         st.session_state.pagecategoly =0
     buy_but = right_column.button("購入依頼")
     if buy_but:
-         api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ st.session_state.pic_src + '&p_title=' + st.session_state.itemserch_word + '&option=' + option
+        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ st.session_state.pic_src + '&p_title=' + st.session_state.itemserch_word + '&option=' + option
         response = requests.get(api_url)
         st.title('已收到您的訂單')
 
