@@ -97,7 +97,7 @@ if st.session_state.pagecategoly == 0:
         remarke[ic] = item_type[ic].iloc[index_num[ic]]["remarke"]
         last[ic] = item_type[ic].iloc[index_num[ic]]["last"]
         
-        text[ic]=title[ic].iloc[-1] +/n"JPY:"+ price[ic].iloc[-1]
+        text[ic]=title[ic].iloc[-1] +'\n'+"JPY:"+ price[ic].iloc[-1]
     # # -----------ここから1個のラベル作る工程-----------------------
     # serch_word1 = st.session_state.pic_name.iloc[start_num][0]
     # serch_word1 =serch_word1.replace('.jpg','')
