@@ -10,9 +10,6 @@ userid = params['userid'][0]
 displayname = params['displayname'][0]
 p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
 
-
-
-
 REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzPDS6SjcPf_Ud5a8FVeun7V2drrkrbV41YX-02KLr7vQKgV9eqZftrSHk1_Uh9sTQ/exec'
 
 dfitem = pd.read_csv('商品リスト.csv')
@@ -42,3 +39,4 @@ buy_but = st.sidebar.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
     response = requests.get(api_url)
+    requests.get('https://nyumallc.github.io/rensen/test.html')
