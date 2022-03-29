@@ -27,16 +27,16 @@ last = item_type.iloc[index_num]["last"]
 
 
 st.image(p_url)
-st.sidebar.title(title.iloc[-1])
+st.title(title.iloc[-1])
 left_column, right_column = st.columns(2)
 left_column.title(price.iloc[-1])
 right_column.title(state.iloc[-1])
 left_column.write(remarke.iloc[-1])
 right_column.write(last.iloc[-1])
 
-st.sidebar.title('要購買此項商品嗎？')
-option = st.sidebar.text_input('備註:(例如：需要加強氣泡紙包裝）')
-buy_but = st.sidebar.button("購入依頼")
+st.title('要購買此項商品嗎？')
+option = st.text_input('備註:(例如：需要加強氣泡紙包裝）')
+buy_but = st.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
     response = requests.get(api_url)
