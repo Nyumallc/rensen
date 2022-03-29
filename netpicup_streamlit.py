@@ -4,7 +4,7 @@ import requests
 import streamlit as st
 import pandas as pd
 import numpy as np
-
+st.set_page_config(layout="wide")
 params = st.experimental_get_query_params()
 try:
     keyword = params['keyword'][0]
