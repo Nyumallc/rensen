@@ -211,13 +211,3 @@ if st.session_state.pagecategoly == 1:
         print(api_url)
 
 
-# st.image(p_url)
-# st.sidebar.title(p_title)
-# st.sidebar.title('この商品を購入しますか？')
-# option = st.sidebar.text_input('備考を入力してください。※例：未開封')
-# buy_but = st.sidebar.button("購入依頼")
-# if buy_but:
-#     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname +  '&p_title=' + p_title + '&option=' + option
-#     response = requests.get(api_url)
-#     print(api_url)
-# st.sidebar.button("キャンセル")
