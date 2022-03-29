@@ -205,8 +205,8 @@ if st.session_state.pagecategoly == 0:
 
 if st.session_state.pagecategoly == 1:
     st.image(st.session_state.pic_src)
+    p_id =st.session_state.pic_src.replace('http://drive.google.com/uc?export=view&id=','')
     p_title=st.session_state.itemserch_word
-    st.write(p_title)
     st.write(st.session_state.itemtitle.iloc[-1])
     st.write(st.session_state.itemprice.iloc[-1])
     st.write(st.session_state.itemstate.iloc[-1])
@@ -219,7 +219,7 @@ if st.session_state.pagecategoly == 1:
         st.session_state.pagecategoly =0
     buy_but = right_column.button("購入依頼")
     if buy_but:
-        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ st.session_state.pic_src + '&p_title=' + p_title + '&option=' + option
+        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
         response = requests.get(api_url)
         st.title('已收到您的訂單')
 
