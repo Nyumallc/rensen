@@ -206,6 +206,7 @@ if st.session_state.pagecategoly == 0:
 if st.session_state.pagecategoly == 1:
     st.image(st.session_state.pic_src)
     p_title=st.session_state.itemserch_word
+    st.write(p_title)
     st.write(st.session_state.itemtitle.iloc[-1])
     st.write(st.session_state.itemprice.iloc[-1])
     st.write(st.session_state.itemstate.iloc[-1])
