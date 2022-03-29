@@ -1,11 +1,9 @@
 from pyrsistent import v
 import streamlit as st
 import requests
-from gspread import worksheet
 import streamlit as st
 import pandas as pd
 import numpy as np
-import gspread
 
 params = st.experimental_get_query_params()
 try:
@@ -36,7 +34,9 @@ if "itemstate" not in st.session_state:
 if "itemremarke" not in st.session_state:
     st.session_state.itemremarke = 0
 if "itemlast" not in st.session_state:
-    st.session_state.last = 0
+    st.session_state.itemlast = 0
+if "itemserch_word" not in st.session_state:
+    st.session_state.itemserch_word= 0    
 if "pic_src" not in st.session_state:
     st.session_state.pic_src = 0    
 if "dblist" not in st.session_state: 
@@ -45,6 +45,7 @@ if "pic_list" not in st.session_state:
     st.session_state.pic_list = []
 if "pic_list" not in st.session_state: 
     st.session_state.pic_name = []
+
 
 
 
@@ -113,6 +114,7 @@ if st.session_state.pagecategoly == 0:
         itempage[colum_i+1]=right_column.button(text[colum_i+1])
     if itempage[0]:
         st.session_state.pic_src = p_url[0]
+        st.session_state.itemserch_word = serch_word[0]
         st.session_state.itemtitle = title[0]
         st.session_state.itemprice = price[0]
         st.session_state.itemstate = state[0]
@@ -121,6 +123,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[1]:
         st.session_state.pic_src = p_url[1]
+        st.session_state.itemserch_word = serch_word[1]
         st.session_state.itemtitle = title[1]
         st.session_state.itemprice = price[1]
         st.session_state.itemstate = state[1]
@@ -129,6 +132,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[2]:
         st.session_state.pic_src = p_url[2]
+        st.session_state.itemserch_word = serch_word[2]
         st.session_state.itemtitle = title[2]
         st.session_state.itemprice = price[2]
         st.session_state.itemstate = state[2]
@@ -137,6 +141,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[3]:
         st.session_state.pic_src = p_url[3]
+        st.session_state.itemserch_word = serch_word[3]
         st.session_state.itemtitle = title[3]
         st.session_state.itemprice = price[3]
         st.session_state.itemstate = state[3]
@@ -145,6 +150,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[4]:
         st.session_state.pic_src = p_url[4]
+        st.session_state.itemserch_word = serch_word[4]
         st.session_state.itemtitle = title[4]
         st.session_state.itemprice = price[4]
         st.session_state.itemstate = state[4]
@@ -153,6 +159,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[5]:
         st.session_state.pic_src = p_url[5]
+        st.session_state.itemserch_word = serch_word[5]
         st.session_state.itemtitle = title[5]
         st.session_state.itemprice = price[5]
         st.session_state.itemstate = state[5]
@@ -161,6 +168,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[6]:
         st.session_state.pic_src = p_url[6]
+        st.session_state.itemserch_word = serch_word[6]
         st.session_state.itemtitle = title[6]
         st.session_state.itemprice = price[6]
         st.session_state.itemstate = state[6]
@@ -169,6 +177,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[7]:
         st.session_state.pic_src = p_url[7]
+        st.session_state.itemserch_word = serch_word[7]
         st.session_state.itemtitle = title[7]
         st.session_state.itemprice = price[7]
         st.session_state.itemstate = state[7]
@@ -177,6 +186,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[8]:
         st.session_state.pic_src = p_url[8]
+        st.session_state.itemserch_word = serch_word[8]
         st.session_state.itemtitle = title[8]
         st.session_state.itemprice = price[8]
         st.session_state.itemstate = state[8]
@@ -185,6 +195,7 @@ if st.session_state.pagecategoly == 0:
         st.session_state.pagecategoly = 1
     if itempage[9]:
         st.session_state.pic_src = p_url[9]
+        st.session_state.itemserch_word = serch_word[9]
         st.session_state.itemtitle = title[9]
         st.session_state.itemprice = price[9]
         st.session_state.itemstate = state[9]
@@ -206,8 +217,18 @@ if st.session_state.pagecategoly == 1:
         st.session_state.pagecategoly =0
     buy_but = right_column.button("購入依頼")
     if buy_but:
-        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname +  '&option=' + option
+        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname +  '&p_id='+ st.session_state.pic_src + '&p_title=' + st.session_state.itemserch_word + '&option=' + option
         response = requests.get(api_url)
-        print(api_url)
+        st.title('已收到您的訂單')
 
 
+# st.image(p_url)
+# st.sidebar.title(p_title)
+# st.sidebar.title('この商品を購入しますか？')
+# option = st.sidebar.text_input('備考を入力してください。※例：未開封')
+# buy_but = st.sidebar.button("購入依頼")
+# if buy_but:
+#     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname +  '&p_title=' + p_title + '&option=' + option
+#     response = requests.get(api_url)
+#     print(api_url)
+# st.sidebar.button("キャンセル")
