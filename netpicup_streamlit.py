@@ -110,8 +110,8 @@ if st.session_state.pagecategoly == 0:
     for colum_i in range(0,10,2):
         left_column.image(p_url[colum_i], width=100)
         right_column.image(p_url[colum_i+1], width=100)
-        itempage[colum_i]=left_column.button(text[colum_i])
-        itempage[colum_i+1]=right_column.button(text[colum_i+1])
+#         itempage[colum_i]=left_column.button(text[colum_i])
+#         itempage[colum_i+1]=right_column.button(text[colum_i+1])
     if itempage[0]:
         st.session_state.pic_src = p_url[0]
         st.session_state.itemserch_word = serch_word[0]
