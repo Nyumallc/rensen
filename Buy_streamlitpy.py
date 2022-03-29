@@ -39,4 +39,4 @@ buy_but = st.sidebar.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id + '&p_title=' + p_title + '&option=' + option
     response = requests.get(api_url)
-    requests.get('https://nyumallc.github.io/rensen/test.html')
+    st.write('已收到您的訂單')
