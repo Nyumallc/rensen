@@ -214,7 +214,7 @@ if st.session_state.pagecategoly == 1:
     st.write(st.session_state.itemlast.iloc[-1])
     option = st.text_input('備考を入力してください。※例：未開封')
     left_column, right_column = st.columns(2)
-    back_list_page=left_column.button('標品一覧へ戻る')
+    back_list_page=left_column.button('商品一覧へ戻る')
     if back_list_page:
         st.session_state.pagecategoly =0
     buy_but = right_column.button("購入依頼")
