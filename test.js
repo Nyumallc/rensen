@@ -9,7 +9,7 @@ function pushButton1(clicked_id) {
     // let key = document.getElementById("keyword");
     // let key = key.value;
 
-    let resurl=(`https://share.streamlit.io/nyumallc/rensen/main/Buy_streamlitpy.py??&userid=${userid}&displayname=${displayname}`)
+    let resurl=(`https://share.streamlit.io/nyumallc/rensen/main/netpicup_streamlit.py?&userid=${userid}&displayname=${displayname}`)
     location.href=resurl
     
     // liff.sendMessages([{
