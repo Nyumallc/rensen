@@ -1,3 +1,7 @@
+const params = new URLSearchParams(window.location.search)
+let p_titie = params.get('p_titie');
+alert(p_title)
+
 btn1 = document.getElementById("submit-btn");
 btn1.setAttribute('onclick', 'pushButton1(this.id)');
 
