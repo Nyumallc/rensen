@@ -10,6 +10,6 @@ function pushButton1() {
     // let key = key.value;
 
     let resurl=(`https://nyumallc.github.io/rensen/test2.html?&userid=${userid}&displayname=${displayname}`)
-    const res = fetch(resurl);
+    location.href=resurl
     
   };
