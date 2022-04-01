@@ -1,3 +1,9 @@
+const url = new URL(window.location.href);
+let params = url.searchParams;
+let displayname=params.get('displayname');
+let userid=params.get('userid');
+
+
 btn1 = document.getElementById("but1");
 btn2 = document.getElementById("but2");
 btn3 = document.getElementById("but3");
@@ -5008,20 +5014,13 @@ function pushButton1(clicked_id) {
     let p_title = tit.title;
     let p_url = tit.src;
     let p_id = p_url.replace('http://drive.google.com/uc?export=view&id=',"")
-    let name = document.getElementById("user-name");
-    let displayname = name.innerHTML;
-    let user_id = document.getElementById("user_id");
-    let userid = user_id.innerHTML;
+//     let name = document.getElementById("user-name");
+//     let displayname = name.innerHTML;
+//     let user_id = document.getElementById("user_id");
+//     let userid = user_id.innerHTML;
     let resurl=(`https://share.streamlit.io/nyumallc/rensen/main/Buy_streamlitpy.py?&userid=${userid}&displayname=${displayname}&p_id=${p_id}&p_title=${p_title}`)
     location.href=resurl
     
-    liff.sendMessages([{
-        'type': 'text',
-        'text': p_title + "の注文をリクエストしました。"
-      }]).then(function() {
-        // document.getElementById('log').value += 'sendMessagesText completed\n';
-      }).catch(function(error) {
-        // document.getElementById('log').value += 'sendMessagesText()=' + error + '\n';
-      });
+
       
     };
