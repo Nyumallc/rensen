@@ -9,7 +9,7 @@ function pushButton1() {
     // let key = document.getElementById("keyword");
     // let key = key.value;
 
-    let resurl=(`https://nyumallc.github.io/rensen/test2.html?&userid=${userid}&displayname=${displayname}&p_title=${p_title}`)
+    let resurl=(`https://nyumallc.github.io/rensen/test2.html?&userid=${userid}&displayname=${displayname}`)
     const res = fetch(resurl);
     
   };
