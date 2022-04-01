@@ -1,5 +1,6 @@
-const params = new URLSearchParams(window.location.search)
-let p_title = params.get('p_title');
+const url = new URL(window.location.href);
+let params = url.searchParams;
+p_title=params.get('p_title');
 alert(p_title)
 
 btn1 = document.getElementById("submit-btn");
