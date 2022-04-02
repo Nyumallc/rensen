@@ -38,6 +38,7 @@ state = item_type.iloc[index_num]["state"]
 remarke = item_type.iloc[index_num]["remarke"]
 last = item_type.iloc[index_num]["last"]
 
+st.write(index_num)
 st.dataframe(dfitem)
 st.dataframe(title)
 
