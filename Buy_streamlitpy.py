@@ -27,7 +27,7 @@ st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","st
 st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
 
 
-p_ids = st.session_state.pic_list.iloc[p_title]
+p_ids = st.session_state.pic_list.iloc[src][0]
 p_url ='http://drive.google.com/uc?export=view&id=' + p_ids
 item_type=st.session_state.dblist
 index_num = item_type.index[item_type["ID"] == int(p_title)]
