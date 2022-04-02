@@ -38,9 +38,8 @@ state = item_type.iloc[index_num]["state"]
 remarke = item_type.iloc[index_num]["remarke"]
 last = item_type.iloc[index_num]["last"]
 
-st.dataframe(title)
 st.image(p_url)
-st.sidebar.title(title.iloc[0])
+st.sidebar.title(title.iloc[-1])
 left_column, right_column = st.columns(2)
 left_column.title(price.iloc[-1])
 right_column.title(state.iloc[-1])
