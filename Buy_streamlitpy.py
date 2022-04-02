@@ -29,7 +29,8 @@ st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
 pic_list=st.session_state.pic_list
 st.dataframe(pic_list)
 
-p_id = pic_list.iloc[int(p_title)]["src"]
+pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
+p_id = pic_list.iloc[pic_index_num]["src"]
 p_url ='http://drive.google.com/uc?export=view&id=' + p_id.iloc[-1]
 item_type=st.session_state.dblist
 index_num = item_type.index[item_type["ID"] == int(p_title)]
