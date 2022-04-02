@@ -11,12 +11,12 @@ if "pic_list" not in st.session_state:
 
 
 params = st.experimental_get_query_params()
-p_id = params['p_id'][0]
+# p_id = params['p_id'][0]
 p_title = params['p_title'][0]
 p_title  =p_title.replace('.jpg','')
 userid = params['userid'][0]
 displayname = params['displayname'][0]
-p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
+# p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
 
 REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzPDS6SjcPf_Ud5a8FVeun7V2drrkrbV41YX-02KLr7vQKgV9eqZftrSHk1_Uh9sTQ/exec'
 
@@ -26,9 +26,9 @@ dfitem = pd.read_csv('item_list.csv')
 st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
 st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
 
-
-p_ids = st.session_state.pic_list.iloc[src][0]
-p_url ='http://drive.google.com/uc?export=view&id=' + p_ids
+pic_list=st.session_state.pic_list
+p_id = pic_list.iloc[p_title]["src"]
+p_url ='http://drive.google.com/uc?export=view&id=' + p_id.iloc[-1]
 item_type=st.session_state.dblist
 index_num = item_type.index[item_type["ID"] == int(p_title)]
 title = item_type.iloc[index_num]["title"]
