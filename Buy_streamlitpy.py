@@ -27,8 +27,6 @@ st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","st
 st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
 
 pic_list=st.session_state.pic_list
-st.dataframe(pic_list)
-
 pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
 p_id = pic_list.iloc[pic_index_num]["src"]
 p_url ='http://drive.google.com/uc?export=view&id=' + p_id.iloc[-1]
@@ -42,7 +40,7 @@ last = item_type.iloc[index_num]["last"]
 
 
 st.image(p_url)
-st.sidebar.title(title.iloc[-1])
+st.sidebar.title(title.iloc[0])
 left_column, right_column = st.columns(2)
 left_column.title(price.iloc[-1])
 right_column.title(state.iloc[-1])
