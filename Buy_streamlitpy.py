@@ -38,6 +38,9 @@ state = item_type.iloc[index_num]["state"]
 remarke = item_type.iloc[index_num]["remarke"]
 last = item_type.iloc[index_num]["last"]
 
+st.dataframe(dfitem)
+st.dataframe(title)
+
 st.image(p_url)
 st.sidebar.title(title.iloc[-1])
 left_column, right_column = st.columns(2)
