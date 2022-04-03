@@ -31,14 +31,13 @@ pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
 p_id = pic_list.iloc[pic_index_num]["src"]
 p_url ='http://drive.google.com/uc?export=view&id=' + p_id.iloc[-1]
 item_type=st.session_state.dblist
-index_num = item_type.index[item_type["ID"] == p_title]
+index_num = item_type.index[item_type["ID"] == int(p_title)]
 title = item_type.iloc[index_num]["title"]
 price = item_type.iloc[index_num]["price"]
 state = item_type.iloc[index_num]["state"]
 remarke = item_type.iloc[index_num]["remarke"]
 last = item_type.iloc[index_num]["last"]
 
-st.dataframe(title)
 st.image(p_url)
 st.title(title.iloc[-1])
 left_column, right_column = st.columns(2)
