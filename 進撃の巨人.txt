@@ -1,0 +1,3 @@
+<input  type=image src=表示用写真/4264819.jpg title=4264819 id=but1 width=100 height=150 >
+<input  type=image src=表示用写真/3447976.jpg title=3447976 id=but2 width=100 height=150 >
+<input  type=image src=表示用写真/4011257.jpg title=4011257 id=but3 width=100 height=150 >

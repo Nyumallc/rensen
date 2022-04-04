@@ -4,10 +4,10 @@ import pandas as pd
 
 if "dblist" not in st.session_state: 
     st.session_state.dblist = []
-if "pic_list" not in st.session_state: 
-    st.session_state.pic_list = []
-if "pic_list" not in st.session_state: 
-    st.session_state.pic_name = []
+# if "pic_list" not in st.session_state: 
+#     st.session_state.pic_list = []
+# if "pic_list" not in st.session_state: 
+#     st.session_state.pic_name = []
 
 
 params = st.experimental_get_query_params()
@@ -24,14 +24,19 @@ df=pd.read_csv('pic_url_pd.csv')
 dfitem = pd.read_csv('item_list.csv')
 # df = df[df['name'].str.contains('keyword')]
 st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
-st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
+# st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
 
-pic_list=st.session_state.pic_list
-pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
-p_id = pic_list.iloc[pic_index_num]["src"]
-p_url ='http://drive.google.com/uc?export=view&id=' + p_id.iloc[-1]
+# pic_list=st.session_state.pic_list
+# pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
+# p_id = pic_list.iloc[pic_index_num]["src"]
+try:
+    p_title=str(int(p_title))
+except ValueError as e: 
+    p_title=str(p_title)
+p_url ='商品写真表示用/' + p_title + ".jpg"
+
 item_type=st.session_state.dblist
-index_num = item_type.index[item_type["ID"] == int(p_title)]
+index_num = item_type.index[item_type["ID"] == p_title]
 title = item_type.iloc[index_num]["title"]
 price = item_type.iloc[index_num]["price"]
 state = item_type.iloc[index_num]["state"]
@@ -50,6 +55,6 @@ st.title('要購買此項商品嗎？')
 option = st.text_input('備註:(例如：需要加強氣泡紙包裝）')
 buy_but = st.button("購入依頼")
 if buy_but:
-    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ p_id.iloc[-1] + '&p_title=' + p_title + '&option=' + option
+    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_id='+ title + '&p_title=' + p_title + '&option=' + option
     response = requests.get(api_url)
     st.title('已收到您的訂單')
