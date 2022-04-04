@@ -3,6 +3,6 @@ let params = url.searchParams;
 let displayname=params.get('displayname');
 let userid=params.get('userid');
 let item_cate=params.get('itemcat');
-let item=str(item_cate)
+let item=decodeURI(item_cate)
 
 
