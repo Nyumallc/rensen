@@ -5000,7 +5000,7 @@ btn2498.setAttribute('onclick', 'pushButton1(this.id)');
 btn2499.setAttribute('onclick', 'pushButton1(this.id)');
 btn2500.setAttribute('onclick', 'pushButton1(this.id)');
 
-});
+};
 
 
 function pushButton1(clicked_id) {
