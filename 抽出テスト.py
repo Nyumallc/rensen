@@ -4,9 +4,9 @@ df = pd.read_csv('item_list.csv')
 harflist=[]
 sarch_list = df.query('title.str.contains("フィギュア")', engine='python')
 titles = sarch_list["ID"]
-h1="<input  type=image src=商品写真表示用/"
+h1="<input  type=image src=表示用写真/"
 h2=".jpg title="
-h3="id=but"
+h3=" id=but"
 h4=" width=100 height=150 >"
 cunt=1
 for title in titles:
