@@ -1,9 +1,10 @@
-const p_url = new URL(window.location.href);
-url=decodeURIComponent(p_url)
+const url = new URL(window.location.href);
+
 let params = url.searchParams;
 let displayname=params.get('displayname');
 let userid=params.get('userid');
 let item_cate=params.get('itemcat');
-let item=decodeURI(item_cate)
+let item=decodeURIComponent(item_cate)
+
 
 
