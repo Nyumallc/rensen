@@ -1,10 +1,3 @@
-const url = new URL(window.location.href);
-let params = url.searchParams;
-let displayname=params.get('displayname');
-let userid=params.get('userid');
-let item_cate=params.get('itemcat');
-
-
 btn1 = document.getElementById("but1");
 btn2 = document.getElementById("but2");
 btn3 = document.getElementById("but3");
@@ -5019,7 +5012,5 @@ function pushButton1(clicked_id) {
 //     let userid = user_id.innerHTML;
     let resurl=(`https://share.streamlit.io/nyumallc/rensen/main/Buy_streamlitpy.py?&userid=${userid}&displayname=${displayname}&p_title=${p_title}`)
     location.href=resurl
-    
 
-      
     };
