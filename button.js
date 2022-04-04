@@ -1,4 +1,4 @@
-window.onload =  function() {
+window.addEventListener("load",function() {
 btn1 = document.getElementById("but1");
 btn2 = document.getElementById("but2");
 btn3 = document.getElementById("but3");
@@ -5000,7 +5000,7 @@ btn2498.setAttribute('onclick', 'pushButton1(this.id)');
 btn2499.setAttribute('onclick', 'pushButton1(this.id)');
 btn2500.setAttribute('onclick', 'pushButton1(this.id)');
 
-};
+});
 
 
 function pushButton1(clicked_id) {
