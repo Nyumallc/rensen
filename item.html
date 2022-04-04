@@ -25,7 +25,8 @@
 <!-- この下にURLを貼り付け -->
 <script defer>
   $(function(){
-   $("div").load("${item}.txt");
+   let item_txt=item += ".txt"
+   $("div").load(item_txt);
   });
   </script>
 <div> </div>
