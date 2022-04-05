@@ -1,25 +1,25 @@
-<input  type=image src=表示用写真/4429255.jpg title=4429255 id=but1 width=100 height=150 >
-<input  type=image src=表示用写真/4352597.jpg title=4352597 id=but2 width=100 height=150 >
-<input  type=image src=表示用写真/4352607.jpg title=4352607 id=but3 width=100 height=150 >
-<input  type=image src=表示用写真/4325428.jpg title=4325428 id=but4 width=100 height=150 >
-<input  type=image src=表示用写真/4338051.jpg title=4338051 id=but5 width=100 height=150 >
-<input  type=image src=表示用写真/4261953.jpg title=4261953 id=but6 width=100 height=150 >
-<input  type=image src=表示用写真/4252350.jpg title=4252350 id=but7 width=100 height=150 >
-<input  type=image src=表示用写真/4177471.jpg title=4177471 id=but8 width=100 height=150 >
-<input  type=image src=表示用写真/4177473.jpg title=4177473 id=but9 width=100 height=150 >
-<input  type=image src=表示用写真/4227671.jpg title=4227671 id=but10 width=100 height=150 >
-<input  type=image src=表示用写真/4227686.jpg title=4227686 id=but11 width=100 height=150 >
-<input  type=image src=表示用写真/4227703.jpg title=4227703 id=but12 width=100 height=150 >
-<input  type=image src=表示用写真/4227705.jpg title=4227705 id=but13 width=100 height=150 >
-<input  type=image src=表示用写真/4352606.jpg title=4352606 id=but14 width=100 height=150 >
-<input  type=image src=表示用写真/4359340.jpg title=4359340 id=but15 width=100 height=150 >
-<input  type=image src=表示用写真/4305788.jpg title=4305788 id=but16 width=100 height=150 >
-<input  type=image src=表示用写真/4305791.jpg title=4305791 id=but17 width=100 height=150 >
-<input  type=image src=表示用写真/4311169.jpg title=4311169 id=but18 width=100 height=150 >
-<input  type=image src=表示用写真/4325429.jpg title=4325429 id=but19 width=100 height=150 >
-<input  type=image src=表示用写真/4325535.jpg title=4325535 id=but20 width=100 height=150 >
-<input  type=image src=表示用写真/4325536.jpg title=4325536 id=but21 width=100 height=150 >
-<input  type=image src=表示用写真/4328549.jpg title=4328549 id=but22 width=100 height=150 >
-<input  type=image src=表示用写真/4328550.jpg title=4328550 id=but23 width=100 height=150 >
-<input  type=image src=表示用写真/4338639.jpg title=4338639 id=but24 width=100 height=150 >
-<input  type=image src=表示用写真/4256748.jpg title=4256748 id=but25 width=100 height=150 >
+"<input  type=image src=è¡¨ç¤ºç¨åç/4429255.jpg title=4429255 id=but1 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4352597.jpg title=4352597 id=but2 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4352607.jpg title=4352607 id=but3 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4325428.jpg title=4325428 id=but4 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4338051.jpg title=4338051 id=but5 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4261953.jpg title=4261953 id=but6 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4252350.jpg title=4252350 id=but7 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4177471.jpg title=4177471 id=but8 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4177473.jpg title=4177473 id=but9 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4227671.jpg title=4227671 id=but10 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4227686.jpg title=4227686 id=but11 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4227703.jpg title=4227703 id=but12 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4227705.jpg title=4227705 id=but13 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4352606.jpg title=4352606 id=but14 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4359340.jpg title=4359340 id=but15 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4305788.jpg title=4305788 id=but16 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4305791.jpg title=4305791 id=but17 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4311169.jpg title=4311169 id=but18 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4325429.jpg title=4325429 id=but19 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4325535.jpg title=4325535 id=but20 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4325536.jpg title=4325536 id=but21 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4328549.jpg title=4328549 id=but22 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4328550.jpg title=4328550 id=but23 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4338639.jpg title=4338639 id=but24 onclick=""pushButton1(this.id)"" width=100 height=150 >"
+"<input  type=image src=è¡¨ç¤ºç¨åç/4256748.jpg title=4256748 id=but25 onclick=""pushButton1(this.id)"" width=100 height=150 >"
