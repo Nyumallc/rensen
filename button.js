@@ -1,4 +1,4 @@
-window.addEventListener('deviceready', function(){
+window.addEventListener('load', function(){
 btn1 = document.getElementById("but1");
 btn2 = document.getElementById("but2");
 btn3 = document.getElementById("but3");
