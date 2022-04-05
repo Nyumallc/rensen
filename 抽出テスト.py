@@ -10,7 +10,7 @@ for line in lines:
     h1="<input  type=image src=表示用写真/"
     h2=".jpg title="
     h3=" id=but"
-    h4=r' onclick="pushButton1(this.id)" width=100 height=150 >'
+    h4=' onclick=pushButton1(this.id) width=100 height=150 >'
     cunt=1
     for title in titles:
         try:
