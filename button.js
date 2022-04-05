@@ -1,4 +1,4 @@
-window.addEventListener('load', function(){
+$(window).on('load', function() {
 btn1 = document.getElementById("but1");
 btn2 = document.getElementById("but2");
 btn3 = document.getElementById("but3");
