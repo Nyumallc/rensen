@@ -30,5 +30,5 @@ for line in lines:
     # text_file.write(html)
 
         harfdf = pd.DataFrame(harflist)
-        s_txt=line + ".txt"
+        s_txt ="src/" + line + ".txt"
         harfdf.to_csv(s_txt, sep='\t', header=False, index=False)
