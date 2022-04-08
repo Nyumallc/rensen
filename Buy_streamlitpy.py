@@ -15,7 +15,7 @@ userid = params['userid'][0]
 displayname = params['displayname'][0]
 # p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
 
-REQUEST_URL = 'https://script.google.com/macros/s/AKfycbxPjQ80xb6yU0k1NQilCD37UWljBt1QkaQzpZoD56maH8hYHd8pzj8B6JWBqZ1_o_cH/exec'
+REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzhNalXJSVoonyyb_RiswVWK_eBqEoJCfCJxYpYsGfrMviz_GjFmxQ48o0-MMy-IcWe/exec'
 
 df=pd.read_csv('pic_url_pd.csv')
 dfitem = pd.read_csv('item_list.csv')
