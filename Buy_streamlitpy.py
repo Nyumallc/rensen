@@ -4,10 +4,7 @@ import pandas as pd
 
 if "dblist" not in st.session_state: 
     st.session_state.dblist = []
-# if "pic_list" not in st.session_state: 
-#     st.session_state.pic_list = []
-# if "pic_list" not in st.session_state: 
-#     st.session_state.pic_name = []
+
 
 
 params = st.experimental_get_query_params()
@@ -22,13 +19,7 @@ REQUEST_URL = 'https://script.google.com/macros/s/AKfycbxPjQ80xb6yU0k1NQilCD37UW
 
 df=pd.read_csv('pic_url_pd.csv')
 dfitem = pd.read_csv('item_list.csv')
-# df = df[df['name'].str.contains('keyword')]
 st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
-# st.session_state.pic_list=pd.DataFrame(data=df.loc[:,["src","title"]])
-
-# pic_list=st.session_state.pic_list
-# pic_index_num = pic_list.index[pic_list["title"] == int(p_title)]
-# p_id = pic_list.iloc[pic_index_num]["src"]
 try:
     p_title=str(int(p_title))
 except ValueError as e: 
