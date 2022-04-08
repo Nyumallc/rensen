@@ -48,4 +48,7 @@ buy_but = st.button("購入依頼")
 if buy_but:
     api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&title='+ title.iloc[-1] + '&p_title=' + p_title +'&price='+ price.iloc[-1] + '&option=' + option
     response = requests.get(api_url)
-    st.title('已收到您的訂單')
+    if len(userid) > 10:
+        st.title('已收到您的訂單')
+    else:
+        st.title('還沒有完成登入。不能訂單。')
