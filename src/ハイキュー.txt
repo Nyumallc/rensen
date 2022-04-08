@@ -894,3 +894,12 @@
 <input  type=image src=表示用写真/60bf2bcecfcd947753920e34.jpg title=60bf2bcecfcd947753920e34 id=but894 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/60a1034615fcf410a4a676d9.jpg title=60a1034615fcf410a4a676d9 id=but895 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/609b93464f443045bcd64e05.jpg title=609b93464f443045bcd64e05 id=but896 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/648153.jpg title=648153 id=but897 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/2920148.jpg title=2920148 id=but898 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4411981.jpg title=4411981 id=but899 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4238073.jpg title=4238073 id=but900 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4345879.jpg title=4345879 id=but901 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4360107.jpg title=4360107 id=but902 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4435313.jpg title=4435313 id=but903 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4468445.jpg title=4468445 id=but904 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4130098.jpg title=4130098 id=but905 onclick=pushButton1(this.id) width=100 height=150 >
