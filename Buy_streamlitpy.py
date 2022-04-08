@@ -46,9 +46,9 @@ st.title('要購買此項商品嗎？')
 option = st.text_input('備註:(例如：需要加強氣泡紙包裝）')
 buy_but = st.button("購入依頼")
 if buy_but:
-    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&title='+ title.iloc[-1] + '&p_title=' + p_title +'&price='+ price.iloc[-1] + '&option=' + option
-    response = requests.get(api_url)
     if len(userid) > 10:
         st.title('已收到您的訂單')
+        api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&title='+ title.iloc[-1] + '&p_title=' + p_title +'&price='+ price.iloc[-1] + '&option=' + option
+        response = requests.get(api_url)
     else:
         st.title('還沒有完成登入。不能訂單。')
