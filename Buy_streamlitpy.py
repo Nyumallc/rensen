@@ -55,6 +55,6 @@ st.title('要購買此項商品嗎？')
 option = st.text_input('備註:(例如：需要加強氣泡紙包裝）')
 buy_but = st.button("購入依頼")
 if buy_but:
-    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&title=' + title + '&p_title=' + p_title + '&price=' + price + '&option=' + option
+    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_title=' + p_title + '&price=' + price + '&option=' + option
     response = requests.get(api_url)
     st.title('已收到您的訂單')
