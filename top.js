@@ -54,8 +54,10 @@ function pushButton1(clicked_id) {
   bun_num = clicked_id
   let tit = document.getElementById(bun_num);
   let item_cate = tit.value;
-
-
+    let resurl=(`https://nyumallc.github.io/rensen/item.html?&userid=${userid}&displayname=${displayname}&itemcat=${item_cate}`)
+    location.href=resurl
+    
+  };
 
   function pushButton2() {
     let user_id = document.getElementById("user_id");
@@ -63,9 +65,3 @@ function pushButton1(clicked_id) {
     location.href=(`https://share.streamlit.io/nyumallc/streamlit_db/main/streamlit_db.py?f_num=rensen&userid=${userid}`)
      
     };
-
-
-    let resurl=(`https://nyumallc.github.io/rensen/item.html?&userid=${userid}&displayname=${displayname}&itemcat=${item_cate}`)
-    location.href=resurl
-    
-  };
