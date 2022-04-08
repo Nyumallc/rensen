@@ -19,6 +19,9 @@ btn18 = document.getElementById("submit-btn18");
 btn19 = document.getElementById("submit-btn19");
 btn20 = document.getElementById("submit-btn20");
 
+btnr = document.getElementById("rireki-btn");
+btnr.setAttribute('onclick', 'pushButton2()');
+
 btn1.setAttribute('onclick', 'pushButton1(this.id)');
 btn2.setAttribute('onclick', 'pushButton1(this.id)');
 btn3.setAttribute('onclick', 'pushButton1(this.id)');
@@ -53,13 +56,14 @@ function pushButton1(clicked_id) {
   let item_cate = tit.value;
 
 
-// function pushButton1() {
-//     let name = document.getElementById("user-name");
-//     let displayname = name.innerHTML;
-//     let user_id = document.getElementById("user_id");
-//     let userid = user_id.innerHTML;
-//     // let key = document.getElementById("keyword");
-//     // let key = key.value;
+
+  function pushButton2() {
+    let user_id = document.getElementById("user_id");
+    let userid = user_id.innerHTML;
+    location.href=(`https://share.streamlit.io/nyumallc/streamlit_db/main/streamlit_db.py?f_num=rensen&userid=${userid}`)
+     
+    };
+
 
     let resurl=(`https://nyumallc.github.io/rensen/item.html?&userid=${userid}&displayname=${displayname}&itemcat=${item_cate}`)
     location.href=resurl
