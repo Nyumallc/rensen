@@ -2,6 +2,7 @@ import pandas as pd
 text_file = open("タイトルリスト.txt", "r",encoding="utf-8")
 lines = text_file.read().split('\n')
 for line in lines:
+    line = line.replace('ONE PIECE','ONEPIECE')
     df = pd.read_csv('item_list.csv')
     harflist=[]
     sarch_list = df[df['title'].str.contains(line)]
