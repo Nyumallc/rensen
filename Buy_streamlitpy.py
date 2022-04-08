@@ -18,7 +18,7 @@ userid = params['userid'][0]
 displayname = params['displayname'][0]
 # p_url = 'http://drive.google.com/uc?export=view&id=' + p_id
 
-REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzPDS6SjcPf_Ud5a8FVeun7V2drrkrbV41YX-02KLr7vQKgV9eqZftrSHk1_Uh9sTQ/exec'
+REQUEST_URL = 'https://script.google.com/macros/s/AKfycbxPjQ80xb6yU0k1NQilCD37UWljBt1QkaQzpZoD56maH8hYHd8pzj8B6JWBqZ1_o_cH/exec'
 
 df=pd.read_csv('pic_url_pd.csv')
 dfitem = pd.read_csv('item_list.csv')
@@ -55,6 +55,6 @@ st.title('要購買此項商品嗎？')
 option = st.text_input('備註:(例如：需要加強氣泡紙包裝）')
 buy_but = st.button("購入依頼")
 if buy_but:
-    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&p_title=' + p_title + '&option=' + option
+    api_url = REQUEST_URL +'?&userid=' + userid +'&displayname=' + displayname + '&title=' + title + '&p_title=' + p_title + '&price=' + price + '&option=' + option
     response = requests.get(api_url)
     st.title('已收到您的訂單')

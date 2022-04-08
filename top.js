@@ -15,6 +15,10 @@ btn14 = document.getElementById("submit-btn14");
 btn15 = document.getElementById("submit-btn15");
 btn16 = document.getElementById("submit-btn16");
 btn17 = document.getElementById("submit-btn17");
+btn18 = document.getElementById("submit-btn18");
+btn19 = document.getElementById("submit-btn19");
+btn20 = document.getElementById("submit-btn20");
+
 btn1.setAttribute('onclick', 'pushButton1(this.id)');
 btn2.setAttribute('onclick', 'pushButton1(this.id)');
 btn3.setAttribute('onclick', 'pushButton1(this.id)');
@@ -32,6 +36,9 @@ btn14.setAttribute('onclick', 'pushButton1(this.id)');
 btn15.setAttribute('onclick', 'pushButton1(this.id)');
 btn16.setAttribute('onclick', 'pushButton1(this.id)');
 btn17.setAttribute('onclick', 'pushButton1(this.id)');
+btn18.setAttribute('onclick', 'pushButton1(this.id)');
+btn19.setAttribute('onclick', 'pushButton1(this.id)');
+btn20.setAttribute('onclick', 'pushButton1(this.id)');
 
 
 
