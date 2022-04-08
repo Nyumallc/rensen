@@ -17,7 +17,6 @@ displayname = params['displayname'][0]
 
 REQUEST_URL = 'https://script.google.com/macros/s/AKfycbzhNalXJSVoonyyb_RiswVWK_eBqEoJCfCJxYpYsGfrMviz_GjFmxQ48o0-MMy-IcWe/exec'
 
-df=pd.read_csv('pic_url_pd.csv')
 dfitem = pd.read_csv('item_list.csv')
 st.session_state.dblist=pd.DataFrame(data=dfitem.loc[:,["ID","title","price","state","remarke","last",]])
 try:
