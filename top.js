@@ -18,6 +18,8 @@ btn17 = document.getElementById("submit-btn17");
 btn18 = document.getElementById("submit-btn18");
 btn19 = document.getElementById("submit-btn19");
 btn20 = document.getElementById("submit-btn20");
+btn21 = document.getElementById("submit-btn21");
+btn22 = document.getElementById("submit-btn22");
 
 btnr = document.getElementById("rireki-btn");
 btnr.setAttribute('onclick', 'pushButton2()');
@@ -42,8 +44,8 @@ btn17.setAttribute('onclick', 'pushButton1(this.id)');
 btn18.setAttribute('onclick', 'pushButton1(this.id)');
 btn19.setAttribute('onclick', 'pushButton1(this.id)');
 btn20.setAttribute('onclick', 'pushButton1(this.id)');
-
-
+btn21.setAttribute('onclick', 'pushButton1(this.id)');
+btn22.setAttribute('onclick', 'pushButton1(this.id)');
 
 
 function pushButton1(clicked_id) {
