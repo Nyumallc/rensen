@@ -34,6 +34,7 @@ remarke = item_type.iloc[index_num]["remarke"]
 last = item_type.iloc[index_num]["last"]
 
 st.image(p_url)
+st.title(title)
 st.title(title.iloc[-1])
 left_column, right_column = st.columns(2)
 left_column.title(price.iloc[-1])
