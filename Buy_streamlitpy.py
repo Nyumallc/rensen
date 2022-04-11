@@ -27,7 +27,7 @@ p_url ='商品写真表示用/' + p_title + ".jpg"
 
 item_type=st.session_state.dblist
 index_num = item_type.index[item_type["ID"] == p_title]
-st.write(index_num)
+st.write(p_title)
 title = item_type.iloc[index_num]["title"]
 price = item_type.iloc[index_num]["price"]
 state = item_type.iloc[index_num]["state"]
