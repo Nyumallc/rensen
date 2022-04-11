@@ -25,3 +25,7 @@
 <input  type=image src=表示用写真/4338639.jpg title=4338639 id=but25 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4256748.jpg title=4256748 id=but26 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4328552.jpg title=4328552 id=but27 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61555e4758d2e53f3aaf6f27.jpg title=61555e4758d2e53f3aaf6f27 id=but28 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61555e4458d2e53f3aaf6f22.jpg title=61555e4458d2e53f3aaf6f22 id=but29 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61555e4358d2e53f3aaf6f20.jpg title=61555e4358d2e53f3aaf6f20 id=but30 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/622708dc2b2d3d5762799cb0.jpg title=622708dc2b2d3d5762799cb0 id=but31 onclick=pushButton1(this.id) width=100 height=150 >
