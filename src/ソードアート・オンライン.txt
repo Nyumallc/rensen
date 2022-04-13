@@ -19,3 +19,5 @@
 <input  type=image src=表示用写真/2902747.jpg title=2902747 id=but19 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/2316875.jpg title=2316875 id=but20 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3152953.jpg title=3152953 id=but21 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/60e7f64984739655bedb225a.jpg title=60e7f64984739655bedb225a id=but22 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/60e7f65484739655bedb227c.jpg title=60e7f65484739655bedb227c id=but23 onclick=pushButton1(this.id) width=100 height=150 >
