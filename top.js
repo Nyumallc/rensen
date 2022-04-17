@@ -64,6 +64,6 @@ function pushButton1(clicked_id) {
   function pushButton2() {
     let user_id = document.getElementById("user_id");
     let userid = user_id.innerHTML;
-    location.href=(`https://share.streamlit.io/nyumallc/streamlit_db/main/streamlit_db.py?f_num=rensen&userid=${userid}`)
+    location.href=(`https://warm-oasis-25284.herokuapp.com/rensen/${userid}`)
      
     };
