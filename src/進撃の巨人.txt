@@ -185,3 +185,6 @@
 <input  type=image src=表示用写真/610f93cd58d2e50f432f9d9a.jpg title=610f93cd58d2e50f432f9d9a id=but185 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/61ff53fc16e1e6751de24971.jpg title=61ff53fc16e1e6751de24971 id=but186 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/616e7f066580dc74a9389f7e.jpg title=616e7f066580dc74a9389f7e id=but187 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/3447976.jpg title=3447976 id=but188 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4264819.jpg title=4264819 id=but189 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4482803.jpg title=4482803 id=but190 onclick=pushButton1(this.id) width=100 height=150 >

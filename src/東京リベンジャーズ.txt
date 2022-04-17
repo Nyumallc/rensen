@@ -377,3 +377,6 @@
 <input  type=image src=表示用写真/4433897.jpg title=4433897 id=but377 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4426718.jpg title=4426718 id=but378 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4355871.jpg title=4355871 id=but379 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4285155.jpg title=4285155 id=but380 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4328639.jpg title=4328639 id=but381 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4355920.jpg title=4355920 id=but382 onclick=pushButton1(this.id) width=100 height=150 >
