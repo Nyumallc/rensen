@@ -305,3 +305,5 @@
 <input  type=image src=表示用写真/4096148.jpg title=4096148 id=but305 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3349697.jpg title=3349697 id=but306 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3737998.jpg title=3737998 id=but307 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/60e7f64984739655bedb225a.jpg title=60e7f64984739655bedb225a id=but308 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/60e7f65484739655bedb227c.jpg title=60e7f65484739655bedb227c id=but309 onclick=pushButton1(this.id) width=100 height=150 >
