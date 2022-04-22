@@ -1599,4 +1599,4 @@
 <input  type=image src=表示用写真/60865d022f7b3b53683940b2.jpg title=60865d022f7b3b53683940b2 id=but1599 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/61eb9ea5e7f5ce6e9cdc7293.jpg title=61eb9ea5e7f5ce6e9cdc7293 id=but1600 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/60e81cbecfcd9403d02c8d79.jpg title=60e81cbecfcd9403d02c8d79 id=but1601 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/612dc24458d2e57422ed2aa4.jpg title=612dc24458d2e57422ed2aa4 id=but1602 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/3490424.jpg title=3490424 id=but1602 onclick=pushButton1(this.id) width=100 height=150 >
