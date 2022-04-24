@@ -18,3 +18,6 @@
 <input  type=image src=表示用写真/4454424.jpg title=4454424 id=but18 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4460130.jpg title=4460130 id=but19 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4460133.jpg title=4460133 id=but20 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4490573.jpg title=4490573 id=but21 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4483981.jpg title=4483981 id=but22 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4483983.jpg title=4483983 id=but23 onclick=pushButton1(this.id) width=100 height=150 >

@@ -2639,3 +2639,4 @@
 <input  type=image src=表示用写真/4331695.jpg title=4331695 id=but2639 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/839452.jpg title=839452 id=but2640 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/839453.jpg title=839453 id=but2641 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/643127.jpg title=643127 id=but2642 onclick=pushButton1(this.id) width=100 height=150 >

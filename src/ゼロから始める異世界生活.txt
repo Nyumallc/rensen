@@ -742,3 +742,5 @@
 <input  type=image src=表示用写真/4466959.jpg title=4466959 id=but742 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4467042.jpg title=4467042 id=but743 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4352708.jpg title=4352708 id=but744 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/3591037.jpg title=3591037 id=but745 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4418054.jpg title=4418054 id=but746 onclick=pushButton1(this.id) width=100 height=150 >

@@ -4322,3 +4322,10 @@
 <input  type=image src=表示用写真/3476752.jpg title=3476752 id=but4322 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4473593.jpg title=4473593 id=but4323 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3925385.jpg title=3925385 id=but4324 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4495442.jpg title=4495442 id=but4325 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4495443.jpg title=4495443 id=but4326 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4495448.jpg title=4495448 id=but4327 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4490064.jpg title=4490064 id=but4328 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/3705953.jpg title=3705953 id=but4329 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4474438.jpg title=4474438 id=but4330 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4474441.jpg title=4474441 id=but4331 onclick=pushButton1(this.id) width=100 height=150 >

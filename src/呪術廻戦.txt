@@ -3663,3 +3663,7 @@
 <input  type=image src=表示用写真/4468853.jpg title=4468853 id=but3663 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4145743.jpg title=4145743 id=but3664 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3951108.jpg title=3951108 id=but3665 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4389428.jpg title=4389428 id=but3666 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4444838.jpg title=4444838 id=but3667 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4493084.jpg title=4493084 id=but3668 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4179380.jpg title=4179380 id=but3669 onclick=pushButton1(this.id) width=100 height=150 >
