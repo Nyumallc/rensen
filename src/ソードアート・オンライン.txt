@@ -341,3 +341,5 @@
 <input  type=image src=表示用写真/4479062.jpg title=4479062 id=but341 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4012663.jpg title=4012663 id=but342 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4217918.jpg title=4217918 id=but343 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6264d40488716d489bd4f015.jpg title=6264d40488716d489bd4f015 id=but344 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6264d3fc88716d489bd4f00d.jpg title=6264d3fc88716d489bd4f00d id=but345 onclick=pushButton1(this.id) width=100 height=150 >

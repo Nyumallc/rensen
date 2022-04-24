@@ -365,3 +365,7 @@
 <input  type=image src=表示用写真/4264819.jpg title=4264819 id=but365 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4483423.jpg title=4483423 id=but366 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4482803.jpg title=4482803 id=but367 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61d5790ee7f5ce68f7f6641f.jpg title=61d5790ee7f5ce68f7f6641f id=but368 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61eb8cffcc324339b9e91329.jpg title=61eb8cffcc324339b9e91329 id=but369 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/616e7f0f6580dc74a9389f8d.jpg title=616e7f0f6580dc74a9389f8d id=but370 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/616e7f076580dc74a9389f83.jpg title=616e7f076580dc74a9389f83 id=but371 onclick=pushButton1(this.id) width=100 height=150 >

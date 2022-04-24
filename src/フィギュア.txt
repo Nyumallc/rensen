@@ -4912,3 +4912,5 @@
 <input  type=image src=表示用写真/4171507.jpg title=4171507 id=but4912 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4124137.jpg title=4124137 id=but4913 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3364517.jpg title=3364517 id=but4914 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/614c1801addb84417ee41541.jpg title=614c1801addb84417ee41541 id=but4915 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6146dbdee406b824ce2f4994.jpg title=6146dbdee406b824ce2f4994 id=but4916 onclick=pushButton1(this.id) width=100 height=150 >

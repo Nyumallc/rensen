@@ -1600,3 +1600,8 @@
 <input  type=image src=表示用写真/61eb9ea5e7f5ce6e9cdc7293.jpg title=61eb9ea5e7f5ce6e9cdc7293 id=but1600 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/60e81cbecfcd9403d02c8d79.jpg title=60e81cbecfcd9403d02c8d79 id=but1601 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/3490424.jpg title=3490424 id=but1602 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61d14b6c04460938f1ce7325.jpg title=61d14b6c04460938f1ce7325 id=but1603 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61e116610446090b3932826d.jpg title=61e116610446090b3932826d id=but1604 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6239614beac95776bd914056.jpg title=6239614beac95776bd914056 id=but1605 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6239613feac95776bd914047.jpg title=6239613feac95776bd914047 id=but1606 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/619f35b5044609773f5a642a.jpg title=619f35b5044609773f5a642a id=but1607 onclick=pushButton1(this.id) width=100 height=150 >

@@ -179,3 +179,4 @@
 <input  type=image src=表示用写真/4147010.jpg title=4147010 id=but179 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4328353.jpg title=4328353 id=but180 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4426159.jpg title=4426159 id=but181 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/6169153ec9fd1f2090e497d4.jpg title=6169153ec9fd1f2090e497d4 id=but182 onclick=pushButton1(this.id) width=100 height=150 >

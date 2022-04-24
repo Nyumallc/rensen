@@ -2640,3 +2640,14 @@
 <input  type=image src=表示用写真/839452.jpg title=839452 id=but2640 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/839453.jpg title=839453 id=but2641 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/643127.jpg title=643127 id=but2642 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/60c6e9d63c394d5fb5208a71.jpg title=60c6e9d63c394d5fb5208a71 id=but2643 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/61b06704044609484b05e975.jpg title=61b06704044609484b05e975 id=but2644 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501c6160b5503aff50af4.jpg title=626501c6160b5503aff50af4 id=but2645 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501c2160b5503aff50af0.jpg title=626501c2160b5503aff50af0 id=but2646 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501b6160b5503aff50ae3.jpg title=626501b6160b5503aff50ae3 id=but2647 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501b4160b5503aff50ae1.jpg title=626501b4160b5503aff50ae1 id=but2648 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501ae160b5503aff50adb.jpg title=626501ae160b5503aff50adb id=but2649 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501a6160b5503aff50ad3.jpg title=626501a6160b5503aff50ad3 id=but2650 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501a2160b5503aff50acf.jpg title=626501a2160b5503aff50acf id=but2651 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/626501a0160b5503aff50acd.jpg title=626501a0160b5503aff50acd id=but2652 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/620b27416b36fa19f567c557.jpg title=620b27416b36fa19f567c557 id=but2653 onclick=pushButton1(this.id) width=100 height=150 >
