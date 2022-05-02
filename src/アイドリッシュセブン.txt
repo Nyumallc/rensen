@@ -1,0 +1,1 @@
+<input  type=image src=表示用写真/1539963.jpg title=1539963 id=but1 onclick=pushButton1(this.id) width=100 height=150 >
