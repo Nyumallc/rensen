@@ -5,3 +5,9 @@
 <input  type=image src=表示用写真/4449802.jpg title=4449802 id=but5 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4426718.jpg title=4426718 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4355871.jpg title=4355871 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4355920.jpg title=4355920 id=but8 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4449803.jpg title=4449803 id=but9 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4519084.jpg title=4519084 id=but10 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4328638.jpg title=4328638 id=but11 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4431898.jpg title=4431898 id=but12 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4328639.jpg title=4328639 id=but13 onclick=pushButton1(this.id) width=100 height=150 >

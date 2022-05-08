@@ -1,0 +1,10 @@
+<input  type=image src=表示用写真/4473029.jpg title=4473029 id=but1 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4519232.jpg title=4519232 id=but2 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/1142084.jpg title=1142084 id=but3 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/1145640.jpg title=1145640 id=but4 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/1243582.jpg title=1243582 id=but5 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4258341.jpg title=4258341 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4258344.jpg title=4258344 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4258593.jpg title=4258593 id=but8 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4051458.jpg title=4051458 id=but9 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4471434.jpg title=4471434 id=but10 onclick=pushButton1(this.id) width=100 height=150 >

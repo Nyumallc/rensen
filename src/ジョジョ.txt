@@ -6,4 +6,8 @@
 <input  type=image src=表示用写真/538967.jpg title=538967 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4359017.jpg title=4359017 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4375781.jpg title=4375781 id=but8 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4375781.jpg title=4375781 id=but9 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/538968.jpg title=538968 id=but9 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/2882843.jpg title=2882843 id=but10 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4359012.jpg title=4359012 id=but11 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/2143645.jpg title=2143645 id=but12 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4515069.jpg title=4515069 id=but13 onclick=pushButton1(this.id) width=100 height=150 >
