@@ -4,4 +4,3 @@
 <input  type=image src=表示用写真/4488963.jpg title=4488963 id=but4 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4488971.jpg title=4488971 id=but5 onclick=pushButton1(this.id) width=100 height=150 >
 <input  type=image src=表示用写真/4396287.jpg title=4396287 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4396287.jpg title=4396287 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
