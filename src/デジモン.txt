@@ -1,9 +1,8 @@
-<input  type=image src=表示用写真/4175237.jpg title=4175237 id=but1 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4488962.jpg title=4488962 id=but2 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4488963.jpg title=4488963 id=but3 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4488971.jpg title=4488971 id=but4 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4489001.jpg title=4489001 id=but5 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4553209.jpg title=4553209 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4396287.jpg title=4396287 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4530022.jpg title=4530022 id=but8 onclick=pushButton1(this.id) width=100 height=150 >
-<input  type=image src=表示用写真/4530026.jpg title=4530026 id=but9 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4489001.jpg title=4489001 id=but1 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4175237.jpg title=4175237 id=but2 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4175237.jpg title=4175237 id=but3 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4488963.jpg title=4488963 id=but4 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4488971.jpg title=4488971 id=but5 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4396287.jpg title=4396287 id=but6 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4530022.jpg title=4530022 id=but7 onclick=pushButton1(this.id) width=100 height=150 >
+<input  type=image src=表示用写真/4530026.jpg title=4530026 id=but8 onclick=pushButton1(this.id) width=100 height=150 >
